@@ -1,14 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * To print the a function from puts (programming is like building a multilingual puzzle
- * Using the puts function
- * Return 0: return the entery point int as 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-
-int main (void) 
-	{
-		puts( "\"Programming is like building a multilingual puzzle" );
-
-		return (0);
-	}
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
