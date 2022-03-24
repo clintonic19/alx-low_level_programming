@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * Using the printf function to print (with proper grammer, but the outcome is piece of art)
- * Using the printf function
- * Return 0: return the entery point int as 0
+ * main -  Entry point
+ * 
+ * Return: Always 0 (Success)
  */
 int main (void)
 {
