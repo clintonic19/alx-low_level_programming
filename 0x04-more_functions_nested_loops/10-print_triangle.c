@@ -5,21 +5,30 @@
  *
  * Return: Always 0.
  */
-
 void print_triangle(int size)
 {
-	int x;
-	int y;
+	int line = 0;
+	int spaces;
+	int hashes;
 
-	for (x = 1; x <= size; x++)
+	if (size > 0)
 	{
-		for (y = 1; y <= size; y++)
+		while (line < size)
 		{
-			if (y <= size - x)
+			for (spaces = size - 1; spaces > line; spaces--)
+			{
 				_putchar(' ');
-			else
+			}
+			for (hashes = 0; hashes < line + 1; hashes++)
+			{
 				_putchar('#');
+			}
+			_putchar('\n');
+			line++;
 		}
+	}
+	else
+	{
 		_putchar('\n');
 	}
 }
